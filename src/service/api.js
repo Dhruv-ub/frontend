@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/listing';
+const API_URL = 'https://backend-1-vo4d.onrender.com/listing';
 
 // Get all listings
 export const getAllListings = async () => {
