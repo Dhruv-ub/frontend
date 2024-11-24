@@ -1,0 +1,159 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+form input,
+form textarea,
+form button {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 10px rgba(0, 91, 187, 0.4);
+}
+
+/* Listings Styling */
+.listings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.listing-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.listing-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.listing-item h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.listing-item p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Button Styling */
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Edit Button */
+.edit-btn {
+  background: linear-gradient(45deg, #28a745, #34ce57);
+  color: #fff;
+  box-shadow: 0 3px 8px rgba(40, 167, 69, 0.3);
+}
+
+.edit-btn:hover {
+  background: linear-gradient(45deg, #218838, #28a745);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+  transform: scale(1.05);
+}
+
+/* Delete Button */
+.delete-btn {
+  background: linear-gradient(45deg, #dc3545, #f56975);
+  color: #fff;
+  box-shadow: 0 3px 8px rgba(220, 53, 69, 0.3);
+}
+
+.delete-btn:hover {
+  background: linear-gradient(45deg, #c82333, #dc3545);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
+  transform: scale(1.05);
+}
+
+.listings p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+}
